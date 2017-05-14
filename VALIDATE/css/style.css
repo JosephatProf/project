@@ -1,0 +1,293 @@
+/*#############Body Styles##############################*/
+	body {
+	  margin-top: 0;	  
+	  margin-bottom: 2em;
+	  }
+	  
+	  
+	#container{
+		width:60em;
+		margin: 0 auto;
+		color:#666;
+		background-color:#FFF;
+		font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		font-size:1em;
+		padding-bottom: .8em;
+		border-bottom: .2em solid #6DA6E2;
+	  line-height:1.2em;
+	 
+	}
+	
+	a {
+	  color: #6DA6E2;
+	  background-color: #FFFFFF;
+	  text-decoration: none;
+	  font-weight: bold;
+	  }
+
+	a:hover {
+	  background-color: #FFFFFF;
+	  font-weight: bold;
+	  text-decoration: underline;
+	  }
+	 
+  a:visited {
+  	 color:#466289;
+  }
+	 
+  h2 {
+    color:#FF9900;
+    font-size: 1.2em;
+    font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding: .5em 0;
+  }
+
+.warning{
+  font-size:.8em;
+  color:red;
+}
+		  
+/*#######################Header Stuff###########################*/
+
+header {
+	  width: 60em;
+	  clear: both;
+	  padding-top:10px;
+	  border-bottom: 4px solid #6DA6E2;
+	  vertical-align:middle;
+	  overflow: hidden;
+	  }
+	  
+    
+ header h1 {
+  color: #6DA6E2;
+  background-color: #FFFFFF;
+  /*padding-top:10px;*/
+  font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  padding:.5em;
+  }
+	
+
+header h2{
+	margin-top: -.3em;
+	color: #999999;
+	background-color:#FFFFFF;
+	}
+header img{
+	float:left;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.do{
+  color:#FF9900; 
+  background-color:#FFFFFF;
+}
+/*#########################Container Stuff #####################*/
+	  
+main {
+	width: 43em;
+	padding-right: .8em;
+	padding-top: .8em;
+	float: right;
+}
+/*####################### Footer Stuff ###########################*/
+footer {
+  clear: both;
+	margin-top: 1em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 60em;
+	background-color:#6DA6E2;
+	color:#FFFFFF;
+	text-align:center;
+	height:1.5em;
+}
+
+/*#####################Side Bar###################################*/
+
+#sidebar {
+	  width: 15em;
+	  padding-left: .8em;
+	  padding-right: .8em;
+	  float: left;
+	  font-size:.9em;
+}
+
+#sidebar section{
+	padding-bottom:.8em;
+	padding-top:.8em;
+  line-height:1.2em;
+	border-bottom: .1em solid #DDDDDD;
+	
+}
+
+#sidebar h3{
+ 	color:#FF9900;
+	background-color: #FFFFFF;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:1.4em;
+	padding-bottom:.3em;
+}
+
+#sidebar li{
+  padding-right:2em;
+}
+
+/*#sidebar section:last-of-type a{
+  padding:0;
+  border:none;
+  color:#6DA6E2;
+  background-color: white;
+}*/
+
+/************************ Hyperlink as Button styling*********************/
+
+
+a.button{
+  display:inline-block;
+  padding:.3em;
+  border: .2em solid #A0AEC1;
+  border-radius: .3em;
+  margin:.2em;
+  color:#FFF;
+  background-color:#6DA6E2;
+}
+
+a.button:hover{
+  color:#6DA6E2;
+  background-color:#FFF;
+  text-decoration: none;
+  
+}
+
+
+/*#####################List Styles -  Both###################################*/
+
+
+ol.bucketlist{
+  counter-reset: myCounter;
+}
+
+.bucketlist li{
+  list-style: none;
+}
+
+.bucketlist li:before {
+  counter-increment: myCounter;
+  content:counter(myCounter);
+  color: white;
+  background: #A0AEC1;
+  display: inline-block;
+  text-align: center;
+  margin: .3em .8em;
+  line-height: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+/***************Edit List Page*****************/
+#add{
+  margin-left: 5em;
+  margin-top:.5em;
+  font-size:.7em;
+}
+#editlist h2{
+  float:left;
+}
+
+#editlist ol{
+  clear:both;
+}
+
+
+/*########################## Generic Form Layout ########################*/
+
+
+label{
+  display:inline-block;
+  width: 8em;
+  padding:.3em 0;
+  
+}
+fieldset
+{
+	display: block;
+	margin: 0 0 1em 0;
+	border: 0 solid #FFFFFF;
+	border-top: .05em solid #6da6e2;
+	padding: 1em;
+	
+}
+
+legend{
+	color:#FFBA27;
+	font-weight:bolder;
+	background-color:#FFFFFF;
+}
+
+input.btn{
+	background-color:#6da6e2;
+	color:white;
+	font-size:1em;
+}
+
+form>div:last-of-type{
+  width:10em;
+  margin:auto;
+  padding-bottom:1em;
+}
+
+
+
+/*########################## Details Form ########################*/
+
+.tarealabel{
+  vertical-align: top;
+}
+
+
+/*******************Display Details*********************/
+
+#display h2{
+	width:auto;
+	margin-left:.8em;
+	font-size:1.5em;
+	text-align: center;
+	color:#6DA6E2;
+	padding-bottom:.3em;
+}
+
+#display div:first-of-type{
+	width:auto;
+	border-bottom: .1em solid #6DA6E2;
+	margin-left:.8em;
+	text-align:center;
+	font-size:1em;
+	color:#FFBA27;
+	padding-bottom:.3em;
+}
+
+#display img{
+	width:43em;
+	margin-left:.8em;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+#display div:last-of-type{
+	width:38em;
+	border-bottom: .1em solid #6DA6E2;
+	margin-left:.8em;
+	text-align:center;
+	margin:1.5em auto;
+	padding-bottom:.3em;
+}
+.error{
+	color: red;
+}
